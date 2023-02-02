@@ -1,0 +1,52 @@
+body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.5rem;
+
+  h2 {
+    margin: 0;
+    font-weight: 500;
+  }
+}
+
+#buttons {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+#increment-button,
+#decrement-button {
+  padding: 0.25rem 1rem;
+  border-radius: 0.25rem;
+  border: 0.12rem solid black;
+  cursor: pointer;
+
+  span {
+    font-size: 1.5rem;
+  }
+
+  &:hover {
+    background-color: rgb(212, 212, 212);
+  }
+
+  &:active {
+    background-color: darkgrey;
+  }
+}
+
+#counter-count {
+  font-size: 2rem;
+  margin: 0;
+}
