@@ -11,13 +11,38 @@ body {
 #root {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   row-gap: 1.5rem;
 
-  h2 {
-    margin: 0;
-    font-weight: 500;
+  #first-counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    h2 {
+      margin: 0;
+      font-weight: 500;
+    }
+  }
+
+  #second-counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    p {
+      margin: 0;
+    }
   }
 }
 
@@ -27,7 +52,9 @@ body {
 }
 
 #increment-button,
-#decrement-button {
+#decrement-button,
+#tester-count-button,
+#tester-count-reset-button {
   padding: 0.25rem 1rem;
   border-radius: 0.25rem;
   border: 0.12rem solid black;

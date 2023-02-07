@@ -1,17 +1,12 @@
 import React from 'react';
-import { DecrementButton } from './components/DecrementButton';
-import { IncrementButton } from './components/IncrementButton';
-import { Counter } from './components/Counter';
+import { FirstCounter } from './components/FirstCounter';
+import { SecondCounter } from './components/SecondCounter';
 
 const App = () => {
-  return(
+  return (
     <>
-      <h2>Click on the buttons to Increment or Decrement the Counter</h2>
-      <div id="buttons">
-        <DecrementButton />
-        <IncrementButton />
-      </div>
-      <Counter />
+        <FirstCounter />
+        <SecondCounter />
     </>
   )
 };
