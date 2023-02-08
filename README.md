@@ -9,5 +9,4 @@ Use 'npm run start' to start up the webpage on http://localhost:8080
 
 Use the 'Increment' and 'Decrement' buttons to change the counter value on the screen
 
-We can also visualize the Actions performed on the count state using Redux Dev Tools.
-Note that State changes aren't accurately reported in the native integration with Redux Devtools.
+We can visualize the Actions dispatched and the State Changes using Redux Dev Tools.
